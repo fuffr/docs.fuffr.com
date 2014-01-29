@@ -3,6 +3,8 @@ Let's get the whole "linebreak" thing out of the way. The next paragraph contain
 Roses are red
 Violets are blue
 
+testing
+
 The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
 
 Roses are red
