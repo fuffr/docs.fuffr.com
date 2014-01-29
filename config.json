@@ -1,0 +1,20 @@
+{
+	"title": "docs.fuffr.com",
+	"tagline": "Documentation for Fuffr",
+	"docs_path": "docs",
+	"image": "img/app.png",
+	"theme": "fuffr",
+	"date_modified": false,
+	"repo": "fuffr/docs.fuffr",
+	"twitter": ["steost"],
+	"google_analytics": "",
+  "ignore": {
+      "files": ["README.md", "INSTRUCTIONS.md"],
+      "folders": ["99_Not_Ready"]
+  },
+	"links": {
+		"Website - fuffr.com": "http://dev.fuffr.com",
+		"GitHub Repo": "https://github.com/fuffr/docs.fuffr.com",
+		"Questions & Answers": "http://dev.fuffr.com/questions/"
+	}
+}
