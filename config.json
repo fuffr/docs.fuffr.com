@@ -7,11 +7,12 @@
 	"date_modified": false,
 	"repo": "fuffr/docs.fuffr.com",
 	"twitter": ["steost"],
-	"google_analytics": "",
-    "ignore": {
-        "files": ["README.md", "INSTRUCTIONS.md"],
-        "folders": ["99_Not_Ready"]
-    },
+	"google_analytics": "UA-46635553-1",
+	"float": false,
+	"ignore": {
+		"files": ["README.md", "INSTRUCTIONS.md"],
+		"folders": ["99_Not_Ready"]
+	},
 	"links": {
 		"Website - fuffr.com": "http://fuffr.com",
 		"GitHub Repo": "https://github.com/fuffr",
