@@ -12,11 +12,11 @@ To develop Fuffr apps, you need:
 
 You have two options:
 
-* Install Git and clone the Fuffr GitHub repository using the command:
+Install Git and clone the Fuffr GitHub repository using the command:
 
     git clone git@github.com:fuffr/fuffr-code.git
 
-* Download the code as a zip-file by clicking **Download ZIP** on [GitHub](https://github.com/fuffr/fuffr-ios).
+Download the code as a zip-file by clicking **Download ZIP** on [GitHub](https://github.com/fuffr/fuffr-ios).
 
 ## Try the examples
 
