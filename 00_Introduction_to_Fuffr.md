@@ -4,6 +4,7 @@
 
 ## Features
 
+* Miki was here
 * 100% Mobile Responsive
 * Supports GitHub Flavored Markdown
 * Auto created homepage/landing page
@@ -227,7 +228,7 @@ By default, daux.io will display the last modified time as reported by the syste
 ```json
 {
 	"date_modified": false
-} 
+}
 ```
 
 ###Timezone
@@ -270,7 +271,7 @@ If you have set up a local or remote IIS web site, you may need a `web.config` w
 The `web.config` needs an entry for `<rewrite>` under `<system.webServer>`:
 
 ```xml
-<configuration> 
+<configuration>
 	<system.webServer>
 		<rewrite>
 			<rules>
