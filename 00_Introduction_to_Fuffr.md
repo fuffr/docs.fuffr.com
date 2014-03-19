@@ -2,6 +2,6 @@
 
 ## Fuffr Documentation
 
-Start developing cool apps for the Fuffr Cover! Here you will find tutorials and examples to get you going.
+Start developing cool apps for Fuffr! Here you will find tutorials and examples to get you going.
 
 Current release of Fuffr is targeted for iOS devices. Android support will follow.

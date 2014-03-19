@@ -4,35 +4,35 @@ Here is an overview of classes and methods provided by the Fuffr API.
 
 The following classes contain functionality needed by most applications:
 
-Class **FFRTouchManager** ([FuffrLib/FFRTouchManager.h](https://github.com/fuffr/fuffr-ios/blob/master/FuffrLib/FuffrLib/Touch/FFRTouchManager.h)) contains methods for connecting to the sensor case and for observing touch events. This is a singleton, the system creates and maintains the single instance of this class.
+Class **FFRTouchManager** ([FuffrLib/FFRTouchManager.h](https://github.com/fuffr/fuffr-ios/blob/master/FuffrLib/FuffrLib/Touch/FFRTouchManager.h)) contains methods for connecting to Fuffr and for observing touch events. This is a singleton, the system creates and maintains the single instance of this class.
 
-Class **FFRTouch** ([FuffrLib/FFRTouch.h](https://github.com/fuffr/fuffr-ios/blob/master/FuffrLib/FuffrLib/Touch/FFRTouch.h)) represents touches, with information like the touch coordinate and the side of the case that generated the event.
+Class **FFRTouch** ([FuffrLib/FFRTouch.h](https://github.com/fuffr/fuffr-ios/blob/master/FuffrLib/FuffrLib/Touch/FFRTouch.h)) represents touches, with information like the touch coordinate and which side that generated the event.
 
-Enum **FFRCaseSide** ([FuffrLib/FFRTouch.h](https://github.com/fuffr/fuffr-ios/blob/master/FuffrLib/FuffrLib/Touch/FFRTouch.h)) has constants that represent the sides of the case: **FFRCaseTop**, **FFRCaseBottom**, **FFRCaseLeft**, **FFRCaseRight**.
+Enum **FFRCaseSide** ([FuffrLib/FFRTouch.h](https://github.com/fuffr/fuffr-ios/blob/master/FuffrLib/FuffrLib/Touch/FFRTouch.h)) has constants that represent each side: **FFRSideTop**, **FFRSideBottom**, **FFRSideLeft**, **FFRSideRight**.
 
 ## Connecting to the sensor case
 
-The first step in an app is to connect to the sensor case. The app uses BLE (Bluetooth Low Energy) to communicate with the case.
+The first step in an app is to connect to Fuffr. The app uses BLE (Bluetooth Low Energy) to communicate with Fuffr.
 
-This is how to get a reference to the **FFRTouchManager** and connect to the case:
+This is how to get a reference to the **FFRTouchManager** and connect:
 
 	FFRTouchManager* manager = [FFRTouchManager sharedManager];
 
     [manager
-        connectToSensorCaseNotifying: self
-        onSuccess: @selector(sensorCaseConnected)
+        connectToFuffrNotifying: self
+        onSuccess: @selector(fuffrConnected)
         onError: nil];
 
 ## Registering touch observers
 
-To observe touch events, the application registers methods with the **FFRTouchManager**. Here is an example that registers touch methods for the right side of the case:
+To observe touch events, the application registers methods with the **FFRTouchManager**. Here is an example that registers touch methods for the right side:
 
     [manager
         addTouchObserver: self
         touchBegan: @selector(touchRightBegan:)
         touchMoved: @selector(touchRightMoved:)
         touchEnded: @selector(touchRightEnded:)
-        side: FFRCaseRight];
+        side: FFRSideRight];
 
 ## Receiving touch events
 
