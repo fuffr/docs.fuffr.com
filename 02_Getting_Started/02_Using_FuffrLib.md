@@ -1,4 +1,4 @@
-**You only need to read the following if you wish to use Fuffr with your existing apps. The examples that comes with Fuffr are already set up properly.**
+**You only need to read the following if you wish to use Fuffr with your existing apps. The examples that come with Fuffr are already set up properly.**
 
 **FuffrLib** is an Xcode library you can add to your own iOS applications to Fuffr enable them.
 
