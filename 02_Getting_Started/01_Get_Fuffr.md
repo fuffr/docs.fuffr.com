@@ -1,6 +1,6 @@
 ## What you need
 
-To develop Fuffr apps, you need the following test:
+To develop Fuffr apps, you need the following:
 
 * Basic knowledge of Objective-C and iOS development.
 * A Mac running a recent version of Xcode.
