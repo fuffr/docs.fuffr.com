@@ -1,3 +1,4 @@
+![alt text](http://fuffr.com/wp-content/uploads/2014/06/Welcome-screen.jpg "Fuffr")
 ## What you need
 
 To develop Fuffr apps, you need the following:
