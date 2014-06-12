@@ -16,13 +16,14 @@ Please note that you cannot run Fuffr apps in the iOS Simulator since it lacks s
 
 You have two options:
 
-Install Git and clone the Fuffr GitHub repository using the command:
+* Install Git and clone the Fuffr GitHub repository using the command:
 
     git clone git@github.com:fuffr/fuffr-ios.git
 
-Download the code as a zip-file by clicking **Download ZIP** on [GitHub](https://github.com/fuffr/fuffr-ios).
+* Download the code as a zip-file by clicking **Download ZIP** on [GitHub](https://github.com/fuffr/fuffr-ios).
 
 ## Try the examples
 
 The Fuffr source code includes the complete Xcode projects for the example apps. Just open the project you wish to run in Xcode and run the example on your device.
+
 ![Fuffr Example Projects](http://fuffr.com/wp-content/uploads/2014/06/Fuffr_example_apps.gif "Fuffr Example Projects")
