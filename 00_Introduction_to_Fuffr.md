@@ -1,4 +1,6 @@
-<img src="/img/fuffr-logo-black.png" style="width: 80%; max-width: 200px;">
+![alt text](http://fuffr.com/wp-content/uploads/2014/06/Welcome-screen.jpg "Fuffr")
+
+The Fuffr iPhone case opens up mobile gaming by adding touch to areas beyond the display
 
 ## Fuffr Documentation
 
