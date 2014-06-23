@@ -10,7 +10,7 @@
 	"google_analytics": "UA-46635553-1",
 	"float": false,
 	"ignore": {
-		"files": ["README.md", "INSTRUCTIONS.md"],
+		"files": ["README.md", "INSTRUCTIONS.md", "gitdeployhookftw.php"],
 		"folders": ["99_Not_Ready"]
 	},
 	"links": {
